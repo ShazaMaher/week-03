@@ -1,0 +1,233 @@
+h1, h2{
+    font-weight: bold;
+}
+
+.logo-navigation{
+    display:flex;
+}
+.logo{
+    width:90px;
+    background: rgb(208, 211, 208);
+    height: 90px;
+    color: black;
+    text-align: center;
+ }
+ 
+.navigation{
+    width:400px;
+    background: rgb(208, 211, 208);
+    height: 90px;
+    color: black;
+    text-align: center;
+    margin-left:400px;
+ }
+.prograss-bar
+ {
+     width:900px;
+ }
+.prograss-bar .bar-part1{
+    height:35px;
+    width:10%;
+ }
+.prograss-bar .bar-part2{
+    height:35px;
+    width:40%;
+ }
+.prograss-bar .bar-part3{
+    height:35px;
+    width:70%;
+ }
+.prograss-bar .bar-part4{
+    height:35px;
+    width:90%;
+ }
+/* first page */
+.first-last-name{
+    margin:10px;
+    padding:10px;
+ }
+.country{
+    margin:20px;
+    padding:10px
+}
+.country select{
+  width:200px;
+  height:30px;
+}
+.city-post-code{
+    margin:5px;
+    padding:10px;
+}
+
+.shipping-address-checkbox{
+    margin:20px;
+    padding:10px;
+}
+
+.shipping-address-checkbox input{
+    width:25px;
+    height:25px;
+    color:rgb(179, 178, 178);
+    margin-left:5px;
+}
+
+.shipping-info{
+    margin:20px;
+    padding:20px;
+}
+.personal-info{
+    display:flex;
+    flex-flow:row;
+    padding-bottom:20px;
+    padding-top:50px;
+}
+.personal-info .div-paragraph{
+    max-width: 20%;
+    widows:15%;
+}
+.personal-info p{
+    font-size:13px;
+}
+.personal-info .div-textarea{
+    width:70%;
+}
+.personal-info .div-textarea textarea{
+    width:700px;
+    height:150px;
+}
+
+/* second page */
+.email-phone{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 20px;
+}
+.email{
+    margin-left:100px;
+}
+.phone{
+    margin-left:20px;
+}
+.password{
+    margin-left:70px;
+    margin-bottom:20px;
+}
+.re-password{
+    margin-bottom:40px;
+}
+
+.kind-of-news ul{
+    display:flex;
+    flex-flow: row;
+}
+.kind-of-news ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.kind-of-news ul li input{
+    width:20px;
+    height:20px;
+    margin-left: 10px;
+    
+}
+.kind-of-news ul li input{
+    border:1px solid black;
+}
+
+.interested-items{
+    max-width:700px;
+}
+.interested-items ul li input{
+    width:25px;
+    height:25px;
+    color:gray;
+}
+
+.interested-items ul li{
+    list-style-type: none;
+    width: 130px;
+    margin: 20px;
+}
+.interested-items ul li:nth-child(even){
+    margin-left: 100px;
+}
+
+.interested-items ul{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+nav{
+    max-width: 1000px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+nav ul li img{
+    width:150px;
+    height:150px;
+    margin-bottom: 10px;
+}
+nav ul li input{
+    margin-left:5px;
+    width: 20px;
+    height:20px;
+}
+.div-next-step{
+    margin-left:900px;
+}
+
+/* page four */
+.name-on-card{
+    margin-left:105px;
+    margin-bottom: 30px;
+}
+.card-type{
+    margin-left:143px;
+    margin-bottom: 30px;
+}
+.card-type select{
+    width:200px;
+    height:30px;
+}
+.credit-card-number-first-name{
+    display: flex;
+    flex-flow: row;
+    margin-left: 60px;
+    margin-bottom:30px;
+}
+.credit-card-number{
+    margin-right: 60px;
+}
+.expiry{
+    display: flex;
+    flex-flow: row;
+    margin-left:107px;
+    margin-bottom: 30px;
+}
+.expiry .expiry-year{
+    margin-left: 20px;
+}
+.expiry-month input, .expiry-year input{
+    width:60px;
+    height:40px;
+}
+.ccv{
+    margin-left:185px;
+}
+.ccv input{
+    width:40px;
+    height:40px;
+}
+/* for all pages */
+.div-next-step button{
+    height:80px;
+    width:200px;
+    background-color:gray;
+}

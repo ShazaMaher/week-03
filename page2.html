@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>register form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <fieldset>
+        <!-- two first buttons in the page -->
+        <div class="logo-navigation">
+            <button class="logo">Logo</button>
+            <button class="navigation">Navigation</button>
+        </div>
+        <!-- header of the page -->
+        <div>
+            <h1>Sign up to yourcustomtailor.com</h1>
+        </div>
+         
+        <form method="get" action="page3.html" name="secondform" onclick="return validateForm()"> 
+            <!-- Step 2/4 - how can we reach you? -->
+            <div>
+                <h2> Step 2/4 - how can we reach you?</h2>
+                <strong>Progress</strong>
+                <div class="w3-border prograss-bar">
+                    <div class="w3-grey bar-part2"></div>
+                </div>
+                <p>we will probably need to stay in touch somehow. Let is know how we can reach you? </p>
+            </div>
+            <!-- more information about the user like the user name and the password -->
+            <div> 
+                <!-- email and phone --> 
+                <diV class="email-phone">
+                    <div class="email">
+                        <label>Email*</label>
+                        <input type="email" id="mail" name="mail" required>
+                    </div>
+                    <div class="phone">
+                        <label>phone</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                </diV>
+                <!-- password -->
+                <diV class="password">
+                    <label>Password*</label>
+                    <input type="password" id="password" name="password" required>
+                </diV>
+                <div class="re-password">
+                    <label>Re-enter Password*</label>
+                    <input type="password" id="re-password" name="re-password" required>
+                </div>
+                <!-- list of checkboxes to see to choose which kind of news you -->
+                <nav class="kind-of-news">
+                    <p>I want to sign up for the newsletter</p>
+                    <ul>
+                        <li>Weekly news<input type="radio" name="weekly-news" id="weekly-news"></li> 
+                        <li>Monthly news<input type="checkbox" name="monthly-news" id="monthly-news"></li>
+                        <li>Don't send me news<input type="checkbox" name="no-news" id="no-news"></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="div-next-step">
+                
+                <button id="second-page-next-step" onclick="ValidateEmail()">Next step</button>
+            </div>
+
+        </form>
+    </fieldset>
+    <script src="js/main.js"></script>
+</body>
+</html>

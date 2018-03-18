@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>register form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <fieldset>
+        <!-- two first buttons in the page -->
+        <div class="logo-navigation">
+           <button class="logo">Logo</button>
+           <button class="navigation">Navigation</button >
+        </div>
+        
+        <div>
+            <h1>Sign up to yourcustomtailor.com</h1>
+        </div>
+         
+        <form method="get" action="page5.html" name="fourthform"        onclick="return validateForm()">
+            <div>
+                <h2> Step 4/4 -tell Payment</h2>
+                <strong>Progress</strong>
+                <div class="w3-border prograss-bar">
+                    <div class="w3-grey bar-part4"></div>
+                </div>
+            </div>
+            <diV>
+                <p>Please fill in your payment data</p>
+            </diV>
+            <div class="name-on-card">
+                <label><strong>Name on card</strong></label>
+                <input type="text" id="name-on-card" name="name_on_card" required>
+            </div>
+            <div class="card-type">
+                <label><strong>Card type</strong></label>
+                <select>
+                    <option value="Master Card">Master Card</option>
+                    <option value="Visa Card">Visa Card</option>
+                </select>
+            </div>
+
+            <diV class="credit-card-number-first-name">
+                <div class="credit-card-number">
+                    <label><strong>Credit card number</strong></label>
+                    <input type="text" id="credit-card-number" name="credit-card-number" required>
+                </div>
+                <div class="first-name">
+                    <label><strong>First name</strong></label>
+                    <input type="text" id="first-name" 
+                    name="first-name" required>
+                </div>
+            </diV>
+            <diV class="expiry">
+                <div class="expiry-month">
+                    <label><strong>Expiry month</strong></label>
+                    <input type="text" id="expiry-month" name="expiry_month" required>
+                </div>
+                <div class="expiry-year">
+                    <label><strong>Expiry year</strong></label>
+                    <input type="text" id="expiry-year" 
+                    name="expiry-year" required>
+                </div>
+            </diV>
+            <diV class="ccv">
+                <label><strong>CCV</strong></label>
+                <input type="text" id="ccv" name="ccv" required>
+            </diV>
+            <div class="div-next-step">
+                <button id="first-page-next-step">Next step
+                </button>
+            </div>
+        </form>
+    </fieldset>
+    <script src="js/main.js"></script>
+</body>
+</html>
